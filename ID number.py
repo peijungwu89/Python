@@ -19,9 +19,9 @@ if re.match('^[A-Z]{1}(1|2)\\d{8}$',inputid):
             total += index * (9-i)    
     print('total=', total)   
     if (10 - (total % 10)) == int(inputid[9]):
-        print(inputid, '正確')
+        print(inputid, 'Correct')
     else:
-        print(inputid, '錯誤')
+        print(inputid, 'Wrong')
 
 else:
-    print('格式錯誤')
+    print('Format error')
