@@ -1,17 +1,20 @@
-# 第一行
+# First line
 a = ' '
 print(a, 'X', a, '|', sep='', end='')
 for i in range(2, 10):
     print('   ', i, sep="", end='')
 print()
-# 第二行
+
+
+# Second line
 print('---+', sep='', end='')
 b = '----'
 for i in range(2, 10):
     print(b, sep='', end='')
 print()
 
-# 第三行
+
+# Third line
 for i in range(2, 10):
     print(' ', i, ' ', '|', sep='', end='')
     for j in range(2, 10):
