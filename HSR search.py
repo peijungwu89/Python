@@ -1,7 +1,6 @@
 from selenium import webdriver
-import time
 from selenium.webdriver.common.keys import Keys
-
+import time
 
 driver = webdriver.Chrome()
 driver.get('https://www.thsrc.com.tw/')
