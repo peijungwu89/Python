@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Lottery Number 
-# https://www.taiwanlottery.com.tw/
+# url : https://www.taiwanlottery.com.tw/
 
 url = 'https://www.taiwanlottery.com.tw/'
 
