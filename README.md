@@ -1,3 +1,4 @@
 # Python
 
-Some 
+IDE: Pycharm, Jupyter Notebook
+DB: MS SQL, db.sqlite
